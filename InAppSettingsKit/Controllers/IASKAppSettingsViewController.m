@@ -220,9 +220,16 @@ CGRect IASKCGRectSwap(CGRect rect);
 	}
 }
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < __IPHONE_6_0
 - (CGSize)contentSizeForViewInPopover {
     return [[self view] sizeThatFits:CGSizeMake(320, 2000)];
 }
+#endif
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_7_0
+- (CGSize)preferredContentSize {
+    return [[self view] sizeThatFits:CGSizeMake(320, 2000)];
+}
+#endif
 
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];

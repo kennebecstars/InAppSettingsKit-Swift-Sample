@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AA106821916565D4D6221F9 /* IASKMultipleValueSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA1013C46B6050E24DEBCE2 /* IASKMultipleValueSelection.h */; };
-		1AA1073290B7DC27EB0C6A70 /* IASKMultipleValueSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10C9888067F44636DBF0D /* IASKMultipleValueSelection.m */; };
+		1AA106821916565D4D6221F9 /* IASKMultipleValueSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA1013C46B6050E24DEBCE2 /* IASKMultipleValueSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA1073290B7DC27EB0C6A70 /* IASKMultipleValueSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10C9888067F44636DBF0D /* IASKMultipleValueSelection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		AA0A85EB1C89C9A70036F778 /* IASKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB5261C88974100B20124 /* IASKTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0A85EC1C89C9AB0036F778 /* IASKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5271C88974100B20124 /* IASKTextView.m */; };
 		AA0A85ED1C89C9B30036F778 /* IASKTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB5281C88974100B20124 /* IASKTextViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0A85EE1C89C9B70036F778 /* IASKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5291C88974100B20124 /* IASKTextViewCell.m */; };
 		AA5AB52A1C88974100B20124 /* IASKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB5261C88974100B20124 /* IASKTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5AB52B1C88974100B20124 /* IASKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5271C88974100B20124 /* IASKTextView.m */; };
+		AA5AB52B1C88974100B20124 /* IASKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5271C88974100B20124 /* IASKTextView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		AA5AB52C1C88974100B20124 /* IASKTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB5281C88974100B20124 /* IASKTextViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5AB52D1C88974100B20124 /* IASKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5291C88974100B20124 /* IASKTextViewCell.m */; };
+		AA5AB52D1C88974100B20124 /* IASKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB5291C88974100B20124 /* IASKTextViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		AA627D2819F67B7C0079AAE8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA627D2719F67B7C0079AAE8 /* MessageUI.framework */; };
 		AA627D2919F67B8E0079AAE8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA627D2719F67B7C0079AAE8 /* MessageUI.framework */; };
 		AA627D3B19F695F30079AAE8 /* IASKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA627D2B19F695F30079AAE8 /* IASKLocalizable.strings */; };
@@ -50,7 +50,7 @@
 		DAC156451B54538D00655031 /* IASKAppSettingsWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E42ADAC61682036500295D85 /* IASKAppSettingsWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC156461B54538D00655031 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC71682036500295D85 /* IASKAppSettingsWebViewController.m */; };
 		DAC156471B54538D00655031 /* IASKMultipleValueSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10C9888067F44636DBF0D /* IASKMultipleValueSelection.m */; };
-		DAC156481B54538D00655031 /* IASKMultipleValueSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA1013C46B6050E24DEBCE2 /* IASKMultipleValueSelection.h */; };
+		DAC156481B54538D00655031 /* IASKMultipleValueSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA1013C46B6050E24DEBCE2 /* IASKMultipleValueSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E401BD3C16820A0D00EAF534 /* IASKAppSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E42ADAC21682036500295D85 /* IASKAppSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E401BD3D16820A1700EAF534 /* IASKSpecifierValuesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E42ADAC41682036500295D85 /* IASKSpecifierValuesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E401BD3E16820A1C00EAF534 /* IASKAppSettingsWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E42ADAC61682036500295D85 /* IASKAppSettingsWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,19 +71,19 @@
 		E42ADAAA168202D700295D85 /* libInAppSettingsKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E42ADA8F168202D700295D85 /* libInAppSettingsKit.a */; };
 		E42ADAB0168202D700295D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E42ADAAE168202D700295D85 /* InfoPlist.strings */; };
 		E42ADAB3168202D700295D85 /* IASSettingsStoreUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAB2168202D700295D85 /* IASSettingsStoreUserDefaultsTests.m */; };
-		E4EDC59D16820D9500BD3CA9 /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC31682036500295D85 /* IASKAppSettingsViewController.m */; };
-		E4EDC59E16820D9500BD3CA9 /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC51682036500295D85 /* IASKSpecifierValuesViewController.m */; };
-		E4EDC59F16820D9500BD3CA9 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC71682036500295D85 /* IASKAppSettingsWebViewController.m */; };
-		E4EDC5A016820D9500BD3CA9 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACA1682036500295D85 /* IASKSettingsReader.m */; };
-		E4EDC5A116820D9500BD3CA9 /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACC1682036500295D85 /* IASKSpecifier.m */; };
-		E4EDC5A216820D9500BD3CA9 /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACE1682036500295D85 /* IASKSettingsStore.m */; };
-		E4EDC5A316820D9500BD3CA9 /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD01682036500295D85 /* IASKSettingsStoreUserDefaults.m */; };
-		E4EDC5A416820D9500BD3CA9 /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD21682036500295D85 /* IASKSettingsStoreFile.m */; };
-		E4EDC5A516820D9500BD3CA9 /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD51682036500295D85 /* IASKPSSliderSpecifierViewCell.m */; };
-		E4EDC5A616820D9500BD3CA9 /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD71682036500295D85 /* IASKPSTextFieldSpecifierViewCell.m */; };
-		E4EDC5A816820D9500BD3CA9 /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADB1682036500295D85 /* IASKSlider.m */; };
-		E4EDC5A916820D9500BD3CA9 /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADD1682036500295D85 /* IASKSwitch.m */; };
-		E4EDC5AA16820D9500BD3CA9 /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADF1682036500295D85 /* IASKTextField.m */; };
+		E4EDC59D16820D9500BD3CA9 /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC31682036500295D85 /* IASKAppSettingsViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC59E16820D9500BD3CA9 /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC51682036500295D85 /* IASKSpecifierValuesViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC59F16820D9500BD3CA9 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAC71682036500295D85 /* IASKAppSettingsWebViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A016820D9500BD3CA9 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACA1682036500295D85 /* IASKSettingsReader.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A116820D9500BD3CA9 /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACC1682036500295D85 /* IASKSpecifier.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A216820D9500BD3CA9 /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADACE1682036500295D85 /* IASKSettingsStore.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A316820D9500BD3CA9 /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD01682036500295D85 /* IASKSettingsStoreUserDefaults.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A416820D9500BD3CA9 /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD21682036500295D85 /* IASKSettingsStoreFile.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A516820D9500BD3CA9 /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD51682036500295D85 /* IASKPSSliderSpecifierViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A616820D9500BD3CA9 /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADAD71682036500295D85 /* IASKPSTextFieldSpecifierViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A816820D9500BD3CA9 /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADB1682036500295D85 /* IASKSlider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5A916820D9500BD3CA9 /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADD1682036500295D85 /* IASKSwitch.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E4EDC5AA16820D9500BD3CA9 /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E42ADADF1682036500295D85 /* IASKTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		E4EDC5AD16821D7300BD3CA9 /* IASKAbstractStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC5AC16821D7300BD3CA9 /* IASKAbstractStoreTests.m */; };
 		E4EDC5AF1682216700BD3CA9 /* IASKFileStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC5AE1682216700BD3CA9 /* IASKFileStoreTests.m */; };
 		E4EDC5B2168227B800BD3CA9 /* IASKSettingsReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC5B1168227B800BD3CA9 /* IASKSettingsReaderTests.m */; };
@@ -543,7 +543,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0610;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = InAppSettingsKit;
 				TargetAttributes = {
 					DAC156221B54533D00655031 = {
@@ -834,7 +834,9 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
@@ -847,7 +849,8 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -857,7 +860,7 @@
 			baseConfigurationReference = E4A95F3A177DB25C00FF0906 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/InAppSettingsKit.dst;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -869,7 +872,7 @@
 			baseConfigurationReference = E4A95F3A177DB25C00FF0906 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/InAppSettingsKit.dst;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -886,6 +889,7 @@
 				);
 				INFOPLIST_FILE = "InAppSettingsKitTests/InAppSettingsKitTests-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inappsettingskit.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -901,6 +905,7 @@
 				);
 				INFOPLIST_FILE = "InAppSettingsKitTests/InAppSettingsKitTests-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inappsettingskit.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

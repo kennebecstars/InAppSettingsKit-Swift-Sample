@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1C03989E1CF637FC00502496 /* InAppSettingsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C03989D1CF637FC00502496 /* InAppSettingsKit.framework */; };
+		1C03989F1CF6385A00502496 /* InAppSettingsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C03989D1CF637FC00502496 /* InAppSettingsKit.framework */; };
+		1C0398A01CF6385A00502496 /* InAppSettingsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C03989D1CF637FC00502496 /* InAppSettingsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C1E97E61CF4E0FB003BBEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E97E51CF4E0FB003BBEC1 /* LaunchScreen.storyboard */; };
+		1C488EC01CF56AE10002D445 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E97D71CF4D4DC003BBEC1 /* CustomViewCell.swift */; };
+		1C488EC11CF56AE10002D445 /* CustomSubviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E97D91CF4D5D8003BBEC1 /* CustomSubviewController.swift */; };
+		1C488EC21CF56AE10002D445 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E97DB1CF4D71B003BBEC1 /* MainViewController.swift */; };
+		1C488EC31CF56AE10002D445 /* InAppSettingsKitSampleAppAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E97D51CF4D461003BBEC1 /* InAppSettingsKitSampleAppAppDelegate.swift */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
-		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		575C01E8127CE845009FBEA2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575C01E7127CE845009FBEA2 /* MessageUI.framework */; };
 		6A1F35EE11490727003E6295 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1F35ED11490727003E6295 /* Icon.png */; };
 		6A9BBF591148F1DA003D97FA /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9BBF581148F1DA003D97FA /* 20-gear2.png */; };
 		AA092DC815B73A0500081FBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA092DC215B73A0500081FBC /* Localizable.strings */; };
 		AA092DC915B73A0500081FBC /* settings_about.html in Resources */ = {isa = PBXBuildFile; fileRef = AA092DC415B73A0500081FBC /* settings_about.html */; };
 		AA092DD115B73A0C00081FBC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA092DC615B73A0500081FBC /* MainWindow.xib */; };
-		AA092DD415B73A1100081FBC /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9BBF581148F1DA003D97FA /* 20-gear2.png */; };
-		AA092DD515B73A1100081FBC /* 20-gear2Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA53E8E15B057FD00C6558B /* 20-gear2Highlighted.png */; };
-		AA0A85E91C89C97B0036F778 /* IASKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A85E61C89C97B0036F778 /* IASKTextView.m */; };
-		AA0A85EA1C89C97B0036F778 /* IASKTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A85E81C89C97B0036F778 /* IASKTextViewCell.m */; };
-		AA21CF1D15B7394C008F9369 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9BBF581148F1DA003D97FA /* 20-gear2.png */; };
-		AA21CF1E15B7394C008F9369 /* 20-gear2Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA53E8E15B057FD00C6558B /* 20-gear2Highlighted.png */; };
-		AA8746D0128B02B600CACD4C /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8746C5128B02B600CACD4C /* IASKSettingsStoreUserDefaults.m */; };
-		AA8746D1128B02B600CACD4C /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8746C7128B02B600CACD4C /* IASKSettingsStoreFile.m */; };
-		AA8746D2128B02B600CACD4C /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8746C9128B02B600CACD4C /* IASKSettingsStore.m */; };
-		AAA468D8125CD9680057A662 /* CustomSubviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA468D6125CD9680057A662 /* CustomSubviewController.m */; };
 		AAA468D9125CD9680057A662 /* CustomSubviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA468D7125CD9680057A662 /* CustomSubviewController.xib */; };
 		AAA53E8F15B057FD00C6558B /* 20-gear2Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA53E8E15B057FD00C6558B /* 20-gear2Highlighted.png */; };
 		AAB8389B12846D110042FF80 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB8389A12846D110042FF80 /* CustomViewCell.xib */; };
-		AAB838A012846D850042FF80 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB8389F12846D850042FF80 /* CustomViewCell.m */; };
-		AABD5DC41A3EECBD00D1316F /* IASKMultipleValueSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = AABD5DC31A3EECBD00D1316F /* IASKMultipleValueSelection.m */; };
-		DA33F59510BC2222004736E8 /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F57A10BC2222004736E8 /* IASKAppSettingsViewController.m */; };
-		DA33F59610BC2222004736E8 /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F57C10BC2222004736E8 /* IASKSpecifierValuesViewController.m */; };
-		DA33F59710BC2222004736E8 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F57F10BC2222004736E8 /* IASKSettingsReader.m */; };
-		DA33F59810BC2222004736E8 /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58110BC2222004736E8 /* IASKSpecifier.m */; };
-		DA33F59910BC2222004736E8 /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58410BC2222004736E8 /* IASKPSSliderSpecifierViewCell.m */; };
-		DA33F59A10BC2222004736E8 /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58610BC2222004736E8 /* IASKPSTextFieldSpecifierViewCell.m */; };
-		DA33F59C10BC2222004736E8 /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58A10BC2222004736E8 /* IASKSlider.m */; };
-		DA33F59D10BC2222004736E8 /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58C10BC2222004736E8 /* IASKSwitch.m */; };
-		DA33F59E10BC2222004736E8 /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33F58E10BC2222004736E8 /* IASKTextField.m */; };
 		DACD38AA10598A7600AC8E51 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DACD38A910598A7600AC8E51 /* Settings.bundle */; };
 		E42ADAED168205B100295D85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ADAEC168205B100295D85 /* Default-568h@2x.png */; };
-		F48E09EA123D03E000B67C05 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E09E9123D03E000B67C05 /* IASKAppSettingsWebViewController.m */; };
 		FB81CA08155BC7C900CEF887 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81CA04155BC7C900CEF887 /* facebook.png */; };
 		FB81CA09155BC7C900CEF887 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81CA05155BC7C900CEF887 /* facebook@2x.png */; };
 		FB81CA0A155BC7C900CEF887 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81CA06155BC7C900CEF887 /* twitter.png */; };
 		FB81CA0B155BC7C900CEF887 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81CA07155BC7C900CEF887 /* twitter@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1C0398A11CF6385A00502496 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1C0398A01CF6385A00502496 /* InAppSettingsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1C03989D1CF637FC00502496 /* InAppSettingsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InAppSettingsKit.framework; path = "../build/Products/Debug-iphonesimulator/InAppSettingsKit.framework"; sourceTree = "<group>"; };
+		1C1E97D41CF4D461003BBEC1 /* InAppSettingsKitSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InAppSettingsKitSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C1E97D51CF4D461003BBEC1 /* InAppSettingsKitSampleAppAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppSettingsKitSampleAppAppDelegate.swift; sourceTree = "<group>"; };
+		1C1E97D71CF4D4DC003BBEC1 /* CustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		1C1E97D91CF4D5D8003BBEC1 /* CustomSubviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSubviewController.swift; sourceTree = "<group>"; };
+		1C1E97DB1CF4D71B003BBEC1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C1E97E51CF4E0FB003BBEC1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSettingsKitSampleAppAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppSettingsKitSampleAppAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* In App Settings Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "In App Settings Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
-		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* InAppSettingsKitSampleApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSettingsKitSampleApp_Prefix.pch; sourceTree = "<group>"; };
 		575C01E7127CE845009FBEA2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -82,13 +82,9 @@
 		AA8746C8128B02B600CACD4C /* IASKSettingsStoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreFile.h; sourceTree = "<group>"; };
 		AA8746C9128B02B600CACD4C /* IASKSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStore.m; sourceTree = "<group>"; };
 		AA8746CA128B02B600CACD4C /* IASKSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStore.h; sourceTree = "<group>"; };
-		AAA468D5125CD9680057A662 /* CustomSubviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSubviewController.h; sourceTree = "<group>"; };
-		AAA468D6125CD9680057A662 /* CustomSubviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSubviewController.m; sourceTree = "<group>"; };
 		AAA468D7125CD9680057A662 /* CustomSubviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSubviewController.xib; sourceTree = "<group>"; };
 		AAA53E8E15B057FD00C6558B /* 20-gear2Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2Highlighted.png"; sourceTree = "<group>"; };
 		AAB8389A12846D110042FF80 /* CustomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
-		AAB8389E12846D850042FF80 /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
-		AAB8389F12846D850042FF80 /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
 		AABD5DC11A3EEC3F00D1316F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		AABD5DC21A3EECBD00D1316F /* IASKMultipleValueSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKMultipleValueSelection.h; sourceTree = "<group>"; };
 		AABD5DC31A3EECBD00D1316F /* IASKMultipleValueSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKMultipleValueSelection.m; sourceTree = "<group>"; };
@@ -125,6 +121,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C03989E1CF637FC00502496 /* InAppSettingsKit.framework in Frameworks */,
+				1C03989F1CF6385A00502496 /* InAppSettingsKit.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -138,8 +136,8 @@
 		080E96DDFE201D6D7F000001 /* Application Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.h */,
-				1D3623250D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.m */,
+				1C1E97D51CF4D461003BBEC1 /* InAppSettingsKitSampleAppAppDelegate.swift */,
+				1C1E97D41CF4D461003BBEC1 /* InAppSettingsKitSampleApp-Bridging-Header.h */,
 			);
 			name = "Application Delegate";
 			path = Classes;
@@ -157,12 +155,9 @@
 		289233A00DB2D0730083E9F9 /* Main View */ = {
 			isa = PBXGroup;
 			children = (
-				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
-				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
-				AAA468D5125CD9680057A662 /* CustomSubviewController.h */,
-				AAA468D6125CD9680057A662 /* CustomSubviewController.m */,
-				AAB8389E12846D850042FF80 /* CustomViewCell.h */,
-				AAB8389F12846D850042FF80 /* CustomViewCell.m */,
+				1C1E97D71CF4D4DC003BBEC1 /* CustomViewCell.swift */,
+				1C1E97D91CF4D5D8003BBEC1 /* CustomSubviewController.swift */,
+				1C1E97DB1CF4D71B003BBEC1 /* MainViewController.swift */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -189,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				E42ADAEE1682071C00295D85 /* LaunchImages */,
+				E42ADAEC168205B100295D85 /* Default-568h@2x.png */,
 				FB81CA03155BC7C900CEF887 /* Images */,
 				6A1F35ED11490727003E6295 /* Icon.png */,
 				6A9BBF581148F1DA003D97FA /* 20-gear2.png */,
@@ -196,6 +192,7 @@
 				8D1107310486CEB800E47090 /* InAppSettingsKitSampleApp-Info.plist */,
 				AA092DC215B73A0500081FBC /* Localizable.strings */,
 				AA092DC415B73A0500081FBC /* settings_about.html */,
+				1C1E97E51CF4E0FB003BBEC1 /* LaunchScreen.storyboard */,
 				AA092DC615B73A0500081FBC /* MainWindow.xib */,
 				AAA468D7125CD9680057A662 /* CustomSubviewController.xib */,
 				AAB8389A12846D110042FF80 /* CustomViewCell.xib */,
@@ -206,6 +203,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C03989D1CF637FC00502496 /* InAppSettingsKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
@@ -297,7 +295,6 @@
 		E42ADAEE1682071C00295D85 /* LaunchImages */ = {
 			isa = PBXGroup;
 			children = (
-				E42ADAEC168205B100295D85 /* Default-568h@2x.png */,
 			);
 			name = LaunchImages;
 			sourceTree = "<group>";
@@ -323,6 +320,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				1C0398A11CF6385A00502496 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,7 +337,8 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "InAppSettingsKitSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,6 +372,7 @@
 				DACD38AA10598A7600AC8E51 /* Settings.bundle in Resources */,
 				6A9BBF591148F1DA003D97FA /* 20-gear2.png in Resources */,
 				6A1F35EE11490727003E6295 /* Icon.png in Resources */,
+				1C1E97E61CF4E0FB003BBEC1 /* LaunchScreen.storyboard in Resources */,
 				AAA468D9125CD9680057A662 /* CustomSubviewController.xib in Resources */,
 				AAB8389B12846D110042FF80 /* CustomViewCell.xib in Resources */,
 				FB81CA08155BC7C900CEF887 /* facebook.png in Resources */,
@@ -380,13 +380,9 @@
 				FB81CA0A155BC7C900CEF887 /* twitter.png in Resources */,
 				FB81CA0B155BC7C900CEF887 /* twitter@2x.png in Resources */,
 				AAA53E8F15B057FD00C6558B /* 20-gear2Highlighted.png in Resources */,
-				AA21CF1D15B7394C008F9369 /* 20-gear2.png in Resources */,
-				AA21CF1E15B7394C008F9369 /* 20-gear2Highlighted.png in Resources */,
 				AA092DC815B73A0500081FBC /* Localizable.strings in Resources */,
 				AA092DC915B73A0500081FBC /* settings_about.html in Resources */,
 				AA092DD115B73A0C00081FBC /* MainWindow.xib in Resources */,
-				AA092DD415B73A1100081FBC /* 20-gear2.png in Resources */,
-				AA092DD515B73A1100081FBC /* 20-gear2Highlighted.png in Resources */,
 				E42ADAED168205B100295D85 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,27 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* InAppSettingsKitSampleAppAppDelegate.m in Sources */,
-				AABD5DC41A3EECBD00D1316F /* IASKMultipleValueSelection.m in Sources */,
-				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
-				DA33F59510BC2222004736E8 /* IASKAppSettingsViewController.m in Sources */,
-				DA33F59610BC2222004736E8 /* IASKSpecifierValuesViewController.m in Sources */,
-				DA33F59710BC2222004736E8 /* IASKSettingsReader.m in Sources */,
-				DA33F59810BC2222004736E8 /* IASKSpecifier.m in Sources */,
-				AA0A85EA1C89C97B0036F778 /* IASKTextViewCell.m in Sources */,
-				DA33F59910BC2222004736E8 /* IASKPSSliderSpecifierViewCell.m in Sources */,
-				DA33F59A10BC2222004736E8 /* IASKPSTextFieldSpecifierViewCell.m in Sources */,
-				DA33F59C10BC2222004736E8 /* IASKSlider.m in Sources */,
-				DA33F59D10BC2222004736E8 /* IASKSwitch.m in Sources */,
-				DA33F59E10BC2222004736E8 /* IASKTextField.m in Sources */,
-				AAA468D8125CD9680057A662 /* CustomSubviewController.m in Sources */,
-				AAB838A012846D850042FF80 /* CustomViewCell.m in Sources */,
-				F48E09EA123D03E000B67C05 /* IASKAppSettingsWebViewController.m in Sources */,
-				AA8746D0128B02B600CACD4C /* IASKSettingsStoreUserDefaults.m in Sources */,
-				AA0A85E91C89C97B0036F778 /* IASKTextView.m in Sources */,
-				AA8746D1128B02B600CACD4C /* IASKSettingsStoreFile.m in Sources */,
-				AA8746D2128B02B600CACD4C /* IASKSettingsStore.m in Sources */,
+				1C488EC01CF56AE10002D445 /* CustomViewCell.swift in Sources */,
+				1C488EC11CF56AE10002D445 /* CustomSubviewController.swift in Sources */,
+				1C488EC21CF56AE10002D445 /* MainViewController.swift in Sources */,
+				1C488EC31CF56AE10002D445 /* InAppSettingsKitSampleAppAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -466,7 +446,12 @@
 				GCC_PREFIX_HEADER = InAppSettingsKitSampleApp_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "InAppSettingsKitSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inappsettingskit.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/InAppSettingsKitSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -475,12 +460,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = InAppSettingsKitSampleApp_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "InAppSettingsKitSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inappsettingskit.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/InAppSettingsKitSampleApp-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -488,14 +478,28 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "In App Settings Kit";
 				SDKROOT = iphoneos;
 			};
@@ -504,14 +508,26 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "In App Settings Kit";
 				SDKROOT = iphoneos;
 			};
